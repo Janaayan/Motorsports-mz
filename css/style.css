@@ -1,0 +1,415 @@
+.main-header {
+    width: 487px;
+    padding: 30px;
+    font: normal normal bold 22px/26px Mazda Type;
+    color: #000000;
+    letter-spacing: 2.62px;
+    height: 26px;
+}
+
+main {
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    max-width: 100%;
+    /* Ensure content fits within viewport */
+}
+
+.lower-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px;
+    height: 31px;
+
+}
+
+h1 {
+    font: normal normal normal 18px/21px Mazda Type;
+    letter-spacing: 2.3px;
+    color: #999999;
+    width: 318px;
+    height: 21px;
+    position: relative;
+    left: 20px;
+}
+
+h2 {
+    font: normal normal normal 18px/21px Mazda Type;
+    letter-spacing: 2.3px;
+    color: #999999;
+    width: 318px;
+    height: 21px;
+    position: relative;
+    left: -60px;
+}
+
+p {
+    color: #999999;
+    font-size: 15px;
+    position: relative;
+    right: 43px;
+}
+
+hr {
+    height: 0.9px;
+    border-width: 0;
+    background-color: rgb(218, 215, 215);
+    width: 96%;
+}
+
+.form-caption {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    right: 9px;
+}
+
+.forms3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.form-container {
+    width: 418px;
+    margin-right: 20px;
+}
+
+form {
+    padding: 15px;
+    border-radius: 3px;
+}
+
+
+label {
+    padding-left: 5px;
+    font: normal normal bold 13px/15px Mazda Type;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 107%;
+    padding-left: 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font: normal normal normal 16px/19px Mazda Type;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    margin-top: 8px;
+    height: 45px;
+}
+
+.down2 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 53%;
+    /* right: 128px; */
+    border: solid #afadad;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 5px;
+    left: 945px;
+}
+
+.down3 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 53%;
+    /* right: 128px; */
+    border: solid #afadad;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 5px;
+    right: 55px;
+}
+
+.form-container1 {
+    position: relative;
+    right: 107px;
+}
+#form-element1 {
+    padding: 20px;
+    border-radius: 3px;
+    width: 102%;
+}
+
+.form-container2 {
+    position: relative;
+    right: 50px;
+}
+
+
+#form-element2 {
+    padding: 20px;
+    border-radius: 3px;
+    width: 113%;
+}
+
+.form-container3 {
+    position: relative;
+    right: 258px;
+}
+
+.form-container4 {
+    position: relative;
+    right: 60px;
+}
+
+#form-element3 {
+    padding: 20px;
+    border-radius: 3px;
+    width: 160%;
+}
+
+#form-element4 {
+    padding: 20px;
+    border-radius: 3px;
+    width: 136%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1403px;
+    border: 1px solid #ccc;
+    /* height: 140px; */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    left: 8px; */
+    padding-bottom: 23px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+th,
+td {
+    padding: 21px;
+    text-align: left;
+}
+
+tbody tr:nth-child(1) {
+    background-color: white;
+    color: #000;
+}
+
+.caption-name {
+    display: flex;
+    align-items: center;
+    /* Align caption vertically */
+    margin-bottom: 10px;
+    position: relative;
+    left: 58px;
+    gap: 10px;
+}
+
+#table-caption1 {
+    font: normal normal bold 13px/15px Mazda Type;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-right: 10px;
+    /* Add some spacing between caption name and the "+" sign */
+}
+
+#table-caption2::before {
+    content: "+";
+    /* Use "+" symbol */
+    font: normal normal normal 29px/35px Material Icons Outlined;
+    color: #A9A8A9;
+    margin-right: 5px;
+    margin-left: 16px;
+    /* Add spacing between "+" and text */
+}
+
+#table-caption3 {
+    font: normal normal bold 13px/15px Mazda Type;
+    letter-spacing: 0px;
+    color: #999999;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.delete-symbol::before {
+    content: "🗑";
+    /* Trash can emoji as the delete symbol */
+    font-size: 20px;
+    margin-right: 5px;
+    /* Add spacing between symbol and text */
+    color: #000;
+}
+
+.caption-child {
+    display: flex;
+}
+
+.form-container5 {
+    display: flex;
+    justify-content: center;
+}
+
+#form-container5 {
+    padding: 20px;
+    border-radius: 3px;
+    width: 84%;
+    position: relative;
+    /* left: -2px; */
+    right: 67px;
+}
+
+.form-container5 input {
+    width: 110%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font: normal normal normal 16px/19px Mazda Type;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    margin-top: 8px;
+    height: 104px;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.custom-icon::before {
+    content: "\f073";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: -24px;
+    top: 36%;
+    font-size: 23px;
+    color: #999;
+    cursor: pointer;
+}
+
+.down1 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 53%;
+    left: 458px;
+    border: solid #afadad;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.down4 {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 53%;
+    right: -299px;
+    border: solid #afadad;
+    border-width: 0px 3px 3px 0px;
+    display: inline-block;
+    padding: 5px;
+}
+
+
+.form-container2 input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font: normal normal normal 16px/19px Mazda Type;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    margin-top: 8px;
+    height: 104px;
+
+}
+
+
+.container {
+    display: flex;
+    height: 55px;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    width: 35px;
+    height: 48px;
+    background-color: #fff;
+    border: 2px solid #9b9999;
+    border-radius: 3px;
+    position: relative;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.container-child {
+    display: flex;
+    align-items: center;
+}
+
+.container-child1 {
+    display: flex;
+    gap: 2px;
+}
+
+.child-element {
+    display: flex;
+    align-items: center;
+    left: 55px;
+    gap: 60px;
+    position: relative;
+    left: 55px;
+}
+
+#child-text {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+#child-text1 {
+    text-decoration: underline;
+}
+
+.buttons-container {
+    display: flex;
+    height: 45px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.item-child {
+    padding: 15px;
+    width: 130px;
+    background: #101010 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    text-align: center;
+    font: normal normal bold 13px/15px Mazda Type;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}

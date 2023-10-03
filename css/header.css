@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.head {
+    width: 100%;
+    height: auto;
+    background: #2B2B2B;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 72%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: auto;
+    padding: 15px;
+    width: 40%;
+    height: auto;
+    opacity: 1;
+}
+
+.heading {
+    width: 60%;
+    text-align: center;
+    font: normal normal bold 37px/39px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}

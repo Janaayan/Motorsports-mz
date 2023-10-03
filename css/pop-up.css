@@ -1,0 +1,321 @@
+/* .caption-name1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+} */
+
+/* Pop-up styles */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* Added */
+}
+
+.popup-content {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 747px;
+    height: 500px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+
+.popup-overlay h2 {
+    width: 274px;
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 18px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    left: 22px;
+    margin-top: 39px;
+    margin-bottom: 35px;
+}
+.popup-overlay .search-box {
+    display: flex;
+}
+
+.popup-overlay .form-container {
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.popup-overlay form {
+    position: relative;
+    left: 60px;
+}
+.popup-overlay .child-form input {
+    position: relative;
+    right: 4px;
+    padding-left: 10px;
+    width: 390px;
+    height: 45px;
+    border: 1px solid #D5D5D5;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font: normal normal normal 16px/19px "Mazda Type";
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    opacity: 1;
+}
+.child-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font: normal normal bold 13px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    right: 34px
+}
+.popup-overlay .child-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+/* Style the custom button */
+.custom-file-button {
+    background: #101010 0% 0% no-repeat padding-box;
+    color: white;
+    padding: 9px 20px;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+    border-radius: 3px;
+    position: relative;
+    right: 85px;
+    top: 8px;
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* .custom-file-button p {
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    right: 1px;
+    width: 103%;
+} */
+
+/* .button1 {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 45px;
+    background: #101010;
+    border-radius: 3px;
+    opacity: 1;
+    position: relative;
+    right: 70px;
+    top: 11px;
+} */
+.popup-overlay .button1 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 26px;
+    left: 91px;
+    background: #101010 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.upload-symbol {
+    margin-left: -8px;
+    margin-top: 3px;
+}
+
+/* .button2 {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 45px;
+    background: #101010;
+    border-radius: 3px;
+    opacity: 1;
+    position: relative;
+    right: 70px;
+    top: 11px;
+} */
+
+.box-text p {
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    position: relative;
+    left: 11px;
+    top: 1px;
+}
+
+.button1 .material-symbols-outlined {
+    color: #FFFFFF;
+    /* position: relative;
+    left: 9px; */
+}
+.popup-overlay .child-caption input {
+    width: 390px;
+    height: 45px;
+    border: 1px solid #D5D5D5;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font: normal normal normal 16px/19px "Mazda Type";
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    padding-left: 10px;
+}
+.popup-overlay .divison {
+    width: 23px;
+    position: relative;
+    left: 66px;
+    top: 20px;
+    text-align: left;
+    font: italic normal bold 16px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 41px;
+}
+.popup-overlay .child-content {
+    position: relative;
+    /* right: -11px; */
+    left: 75px;
+    top: 15px;
+}
+.popup-overlay .child-content .saveitem {
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-left: 3px;
+    position: absolute;
+    right: 31px;
+}
+.popup-overlay .buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 44px;
+    top: 32px;
+}
+
+.popup-overlay .buttons-container p {
+    position: relative;
+    left: 18px;
+}
+
+.popup-overlay .button2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 70px;
+    top: 11px;
+    padding: 15px;
+    width: 120px;
+    height: 45px;
+    background: #101010 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.button2 .material-symbols-outlined {
+    color: #FFFFFF;
+    position: relative;
+    left: 9px;
+}
+.child-caption label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font: normal normal bold 13px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #101010;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 126%;
+    position: relative;
+    right: 57px;
+}
+
+#clicked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 45px;
+    background: #101010;
+    border-radius: 3px;
+    opacity: 1;
+    position: relative;
+    right: -290px;
+    top: 100px;
+    color: #f4f1eb;
+    cursor: pointer;
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/* #clicked p {
+    text-align: center;
+    font: normal normal bold 13px/15px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    left: 38px;
+    top: 16px;
+} */

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazda</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pop-up.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" >
+    <script>
+        function togglePopup() {
+            let popup = document.getElementById("popup");
+            let popupOverlay = document.getElementById("popup-overlay");
+            popup.style.display = popup.style.display === "block" ? "none" : "block";
+            popupOverlay.style.display = popup.style.display;
+        }
+    </script>
+
+</head>
+
+<body>
+    <header class="head">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="company logo">
+                </a>
+            </div>
+            <div class="heading">
+                <h3>MAZDA MOTORSPORTS</h3>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="header-container">
+            <div class="main-header">RACER MEMBERSHIP REGISTRATION</div>
+        </div>
+        <div class="form-container1">
+            <div class="form-header-section">
+                <h2>Personal/Customer Information</h2>
+                <h3>Indicates a Required Field</h3>
+            </div>
+            <div class="form-header-line">
+            </div>
+
+            <div class="form-section">
+                <div class="input-row">
+                    <label class="input-label" for="first-name">First Name*</label>
+                    <input class="input-field" type="text" id="first-name" required
+                        placeholder="Please Enter Your First Name">
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="middle-name">Middle Name:</label>
+                    <input class="input-field" type="text" id="middle-name" required
+                        placeholder="Please Enter Your Middle Name">
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="last-name">Last Name:</label>
+                    <input class="input-field" type="text" id="last-name" required placeholder="Please Enter Your Last Name">
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="input-row">
+                    <label class="input-label" for="email">PRIMARY EMAIL *</label>
+                    <input class="input-field" type="text" id="email" required
+                        placeholder="Please Enter Your Primary Email">
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="number">PRIMARY PHONE NUMBER*</label>
+                    <input class="input-field" type="text" id="number" required
+                        placeholder="Please Enter Your Primary Phone Number">
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="alternative-email">ALTERNATE EMAIL</label>
+                    <input class="input-field" type="text" id="alternative-email" required
+                        placeholder="Please Enter Your Alternate Email">
+                </div>
+            </div>
+            <div class="form-section">
+                <div class="input-row">
+                    <label class="input-label" for="phone">ALTERNATE PHONE</label>
+                    <input class="input-field" type="text" id="phone" required
+                        placeholder="Please Enter Your Alternate Phone Number" >
+                </div>
+                <div class="input-row-textarea">
+                    <label class="custom-lebel">
+                        <span class="input-label-span">HOME ADDRESS</span>
+                        <span class="input-label-span-custom">( For Those Living in U.S., U.S. Territories, Canada,
+                            Mexico, DR )</span>
+                    </label>
+                    <textarea class="input-field-area"  id="area" required
+                        placeholder="Please Enter Your Home Address"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="form-container2">
+            <div class="form-header-section">
+                <h2>Vehicle Information</h2>
+            </div>
+            <div class="form-header-line">
+            </div>
+
+            <div class="form-section">
+                <div class="input-row">
+                    <label class="input-label" for="model-name">MODEL*</label>
+                    <div>
+                        <input class="input-field" type="text" id="model-name" required
+                            placeholder="Please Select Vehicle Model">
+                        <i class="arrow down4"></i>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="year-name">YEAR*</label>
+                    <div>
+                        <input class="input-field" type="text" id="year-name" required placeholder="Please Select Year">
+                        <i class="arrow down4"></i>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="engine-name">ENGINE*</label>
+                    <div>
+                        <input class="input-field" type="text" id="engine-name" required placeholder="Please Select Engine">
+                        <i class="arrow down4"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-container2">
+            <div class="form-header-section">
+                <h2>Sanctioning Information</h2>
+            </div>
+            <div class="form-header-line">
+            </div>
+
+            <div class="form-section">
+                <div class="input-row">
+                    <label class="input-label" for="club-name">CLUB/SANCTIONING BODY NAME *</label>
+                    <input class="input-field" type="text" id="club-name" required placeholder="Please Enter Club Name">
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="type-name">CATEGORY/TYPE *</label>
+                    <div>
+                        <input class="input-field" type="text" id="type-name" required
+                            placeholder="Please Choose Category/Type">
+                        <i class="arrow down4"></i>
+                    </div>
+                </div>
+                <div class="input-row">
+                    <label class="input-label" for="class-name">CLASS*</label>
+                    <div>
+                        <input class="input-field" type="text" id="class-name" required placeholder="Please Select Class">
+                        <i class="arrow down4"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-container3">
+            <div class="form-header-section">
+                <h2>Race Information</h2>
+            </div>
+            <div class="form-header-line">
+            </div>
+
+            <div class="form-section">
+                <div class="input-row">
+                    <label class="input-label" for="event">RACE EVENT DATE *</label>
+                    <div>
+                        <input class="input-field" type="text" id="event" required
+                            placeholder="Please Select Race Event Date">
+                        <i class="custom-icon"></i>
+                    </div>
+
+                </div>
+                <div class="input-row">
+                    <label class="custom-lebel">
+                        <span class="input-label-span">RACE VEHICLE *</span>
+                        <span class="input-label-span-custom">(select race vehicle from profile)</span>
+                    </label>
+                    <div><input class="input-field" type="text" id="race" required
+                            placeholder="Please Choose Category/Type">
+                        <i class="arrow down4"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="caption-name">
+                <span id="table-caption1">RESULTS DOCUMENT OR URL</span>
+                <span id="table-caption2"></span>
+                <!-- <span id="table-caption3">ADD RACE RESULT PROOF</span> -->
+                <span id="table-caption3" onclick="togglePopup()">ADD RACE RESULT PROOF</span>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>FILE OR URL</th>
+                            <th>DATE ADDED</th>
+                            <th>RACE EVENT DATE</th>
+                            <th>RACE VEHICLE</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>RACE RESULT PROOF DOCUMENT.JPG</td>
+                            <td>07/13/2022</td>
+                            <td>07/13/2022</td>
+                            <td>CX-50</td>
+                            <td style="opacity: 0.8;"><span class="delete-symbol"></span> DELETE</td>
+                        </tr>
+                        <tr>
+                            <td>HTTPS://WWW.MAZDAMOTORSPORTS.COM/</td>
+                            <td>07/13/2022</td>
+                            <td>07/13/2022</td>
+                            <td>CX-9</td>
+                            <td><span class="delete-symbol"></span> DELETE</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="form-container4">
+            <div class="form-header-section">
+                <h2>Checkout Information</h2>
+            </div>
+            <div class="form-header-line">
+            </div>
+
+            <div class="form-section">
+                <div class="input-row-textarea">
+                    <label class="custom-lebel">
+                        <span class="input-label-span">SUGGESTION BOX</span>
+                    </label>
+                    <textarea class="input-suggestion-field-area"  id="suggestion-area" required
+                        placeholder="Please Enter Your Suggestion"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="form-container4">
+            <div class="form-header-section">
+                <h2>Racer Notes</h2>
+            </div>
+            <div class="form-header-line">
+            </div>
+
+            <div class="form-section">
+                <div class="input-row-textarea">
+                    <label class="custom-lebel">
+                        <span class="input-label-span">NOTES</span>
+                    </label>
+                    <textarea class="input-suggestion-field-area"  id="notes-area" required
+                        placeholder="Please Enter Your Notes"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="checkbox-container">
+            <div class="checkbox-section">
+                <div class="child-element">
+                    <div class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </div>
+                    <div class="container-child1">
+                        <p id="child-text1">I HAVE READ & AGREED TO THE </p>
+                        <p id="child-text2">TERMS & CONDITIONS</p>
+                    </div>
+                </div>
+                <div class="child-element">
+                    <div class="custom-checkbox">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </div>
+                    <div>
+                        <p id="child-text3">I WANT TO RECIEVE NEWS, FEATURE UPDATES, AND NEWSLETTER.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons-container">
+            <div class="buttons-container-child"><button class="item-child">Submit</button></div>
+        </div>
+
+    </main>
+    <footer class="flex-all-center">
+        <div class="footer-container">
+            <div class="footer-header">
+                <p id="caption-text1">MAZDA MOTORSPORTS</p>
+            </div>
+            <div class="footer-header2">
+                <p id="caption-text2">MAZDAUSA</p>
+            </div>
+        </div>
+        <div class="footer-container1">
+            <!-- <div class="footer-container1-information"> -->
+            <div class="container1-child1">
+                <div>
+                    <p id="container1-text1">ADDRESS</p>
+                    <p id="container1-text2">1444 McGaw Avenue</p>
+                    <p id="container1-text3">Irvine, CA 92614</p>
+                </div>
+                <div>
+                    <p id="container1-text4">TELEPHONE</p>
+                    <p id="container1-text5"> 800-435- 2508 Toll Free (U.S. only)
+                </div>
+            </div>
+            <div class="container1-child2">
+                <div>
+                    <p id="container1-text6">VISIT WEBSITE </p>
+                    <p id="container1-text7">MAZDAUSA.COM</p>
+                    <p id="container1-text8">ACCESSORIES.MAZDAUSA.COM</p>
+                </div>
+                <div>
+                    <p id="container1-text9">OTHER INFORMATIONS</p>
+                    <p id="container1-text10">ESTD. 1920</p>
+                    <p id="container1-text11">HIROSHIMA, JAPAN</p>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="buttom-container">
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:your@example.com"><i class="fas fa-envelope"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+            </div>
+            <div class="footer-header-line">
+            </div>
+            <div class="buttom-content">
+                <div class="buttom-child">
+                    <p id="buttom-child-text1">PRIVACY POLICY
+                    <p id="buttom-child-text2">|</p>
+                    <p id="buttom-child-text3">NOT SELL MY PERSONAL INFORMATION</p>
+                </div>
+                <div class="buttom-child2">
+                    <p id="buttom-child-text4">©2022 MAZDA NORTH AMERICAN OPERATIONS. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup-content" id="popup">
+            <h2>UPLOAD FILE OR SUBMIT URL</h2>
+            <div class="search-box">
+                <div class="form-container">
+                    <form class="child-form">
+                        <label for="popup-upload-lebel" class="form-label">YOU CAN UPLOAD YOUR RACE RESULTS AS A FILE.</label>
+                        <input type="text" id="popup-upload-lebel" class="form-input" placeholder="Upload Your File">
+                    </form>
+                </div>
+                <div class="child-box"><button class="custom-file-button">
+                        Choose File
+                    </button>
+                    <button class="button1">
+                        <!-- <div class="upload-symbol"> -->
+                            <span class="material-symbols-outlined">
+                                upload
+                            </span>
+                        <!-- </div> -->
+                        <!-- <div class="box-text"> -->
+                            <span>upload</span>
+                        <!-- </div> -->
+                    </button>
+                </div>
+            </div>
+            <div class="divison">or</div>
+            <div class="search-box">
+                <div class="form-container">
+                    <form class="child-caption">
+                        <label for="popup-race-lebel" class="form-label">YOU CAN SAVE RACE RESULT REFERENCE PRESENT IN ANOTHER
+                            WEBSITE</label>
+                        <input type="text" id="popup-race-lebel" class="form-input" placeholder="Enter Your URL Here">
+                    </form>
+                </div>
+                <div class="child-content"><button class="button2">
+                        <span class="material-symbols-outlined">
+                            save
+                        </span>
+                        <!-- <div class="box-text"> -->
+                            <span class="saveitem">save</span>
+                        <!-- </div> -->
+                    </button></div>
+
+            </div>
+            <button onclick="togglePopup()" id="clicked">
+                Close
+            </button>
+        </div>
+
+    </div>
+</body>
+
+</html>

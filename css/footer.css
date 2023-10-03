@@ -1,0 +1,256 @@
+.flex-all-center {
+    width: 100%;
+    height: 274px;
+    background: #2B2B2B;
+    opacity: 1;
+}
+
+.footer-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 477px; */
+    /* padding-top: 41px; */
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.footer-header {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+}
+
+.footer-header2 {
+    position: absolute;
+    top: 35px;
+    right: 618px;
+}
+
+#caption-text1 {
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 18px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+#caption-text2 {
+    height: 21px;
+    text-align: left;
+    font: normal normal bold 18px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#container1-text1 {
+    font: normal normal bold 13px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #D5D5D5;
+}
+
+#container1-text2 {
+    font: normal normal normal 13px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #A9A8A9;
+}
+#container1-text3 {
+    font: normal normal normal 13px/20px "Mazda Type";
+    letter-spacing: 0px;
+    color: #A9A8A9;
+}
+
+
+#container1-text4 {
+    font: normal normal bold 13px/28px "Mazda Type";
+    letter-spacing: 0px;
+    color: #D5D5D5;
+}
+
+#container1-text5 {
+    font: normal normal normal 13px/28px "Mazda Type";
+    letter-spacing: 0px;
+    color: #A9A8A9;
+}
+
+#container1-text6 {
+    font: normal normal bold 13px/32px "Mazda Type";
+    letter-spacing: 0px;
+    color: #D5D5D5;
+    text-transform: uppercase;
+}
+
+#container1-text7 {
+    font: normal normal normal 13px/32px "Mazda Type";
+    letter-spacing: 0px;
+    color: #A9A8A9;
+    text-transform: uppercase;
+
+}
+#container1-text8 {
+    font: normal normal normal 13px/32px "Mazda Type";
+    letter-spacing: 0px;
+    color: #A9A8A9;
+    text-transform: uppercase;
+
+}
+
+#container1-text9 {
+    font: normal normal bold 13px/32px "Mazda Type";
+    letter-spacing: 0px;
+    color: #D5D5D5;
+    text-transform: uppercase;
+}
+
+#container1-text10 {
+    font: normal normal bold 13px/32px "Mazda Type";
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    text-transform: uppercase;
+}
+#container1-text11{
+    font: normal normal bold 13px/32px "Mazda Type";
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    text-transform: uppercase;
+}
+
+.footer-container1 {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+.footer-container1-information {
+    display: flex;
+    width: 100%;
+}
+
+.container1-child1 {
+    display: flex;
+    justify-content: center;
+    /* width: 37%; */
+    gap: 90px;
+    /* margin-top: 10px; */
+    position: absolute;
+    top: 75px;
+    left: 39px;
+}
+
+.container1-child2 {
+    display: flex;
+    justify-content: center;
+    /* width: 63%; */
+    margin-top: 10px;
+    gap: 63px;
+    position: absolute;
+    top: 60px;
+    right: 310px;
+}
+
+.buttom-container {
+    width: 95%;
+    margin: auto;
+    position: relative;
+    top: 200px;
+}
+
+.social-icons {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+    gap: 17px;
+    position: absolute;
+    left: 40px;
+    font-size: 18px;
+    /* margin-bottom: -2000px; */
+    top: -33px;
+}
+
+.fa-facebook:before {
+    content: "\f0e0";
+    color: rgb(189, 189, 189);
+}
+
+.fa-twitter:before {
+    content: "\f0e0";
+    color: rgb(189, 189, 189);
+    
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    color: rgb(189, 189, 189);
+    
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color: rgb(189, 189, 189);
+    
+}
+
+.footer-header-line {
+    /* display: flex; */
+    justify-content: center;
+    margin-bottom: 5px;
+    width: 98%;
+    border: 1px solid rgb(137 135 135);
+}
+
+.buttom-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.buttom-child {
+    display: flex;
+    position: absolute;
+    /* left: 114px; */
+    gap: 18px;
+    /* margin-top: 7px; */
+    left: 42px;
+    top: 7px;
+}
+
+#buttom-child-text1 {
+    font: normal normal bold 12px/9px "Mazda Type";
+    letter-spacing: 0.12px;
+    color: #888888;
+}
+#buttom-child-text2 {
+    font: normal normal bold 12px/9px "Mazda Type";
+    letter-spacing: 0.12px;
+    color: #888888;
+}
+#buttom-child-text3 {
+    font: normal normal bold 12px/9px "Mazda Type";
+    letter-spacing: 0.12px;
+    color: #888888;
+}
+#buttom-child-text4 {
+    font: normal normal bold 12px/9px "Mazda Type";
+    letter-spacing: 0.12px;
+    color: #888888;
+}
+
+.buttom-child2 {
+    position: absolute;
+    top: 1px;
+    right: 47px;
+}
+
+#buttom-child-text4 {
+    font: normal normal bold 12px/9px "Mazda Type";
+    letter-spacing: 0.12px;
+    color: #888888;
+    margin-top: 7px;
+    position: relative;
+    right: 7px;
+    opacity: 0.8;
+
+}
